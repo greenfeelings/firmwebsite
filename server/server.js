@@ -5,7 +5,7 @@ const path = require("path");
 const db = require("./db");
 const multer = require("multer");
 const s3 = require("./s3");
-const uidSafe = require("uid-Safe");
+const uidSafe = require("uid-safe");
 
 app.use(compression());
 
